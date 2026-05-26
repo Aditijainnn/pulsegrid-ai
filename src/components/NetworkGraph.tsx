@@ -7,13 +7,13 @@ import { Cpu, Database, Globe, HardDrive, Server, Zap } from "lucide-react";
 import type { NodeType, WorkloadNode } from "@/types/infra";
 
 const NODE_POSITIONS: Record<string, { x: number; y: number }> = {
-  "node-0": { x: 18, y: 22 },
+  "node-0": { x: 18, y: 24 },
   "node-1": { x: 50, y: 50 },
-  "node-2": { x: 82, y: 22 },
-  "node-3": { x: 82, y: 78 },
-  "node-4": { x: 18, y: 78 },
-  "node-5": { x: 50, y: 90 },
-  "node-6": { x: 50, y: 10 },
+  "node-2": { x: 82, y: 24 },
+  "node-3": { x: 82, y: 74 },
+  "node-4": { x: 18, y: 74 },
+  "node-5": { x: 50, y: 80 },
+  "node-6": { x: 50, y: 18 },
   "node-7": { x: 10, y: 50 },
 };
 
@@ -78,7 +78,7 @@ export function NetworkGraph() {
   }, [edges]);
 
   return (
-    <div className="relative aspect-[5/4] w-full overflow-hidden rounded-2xl glass">
+    <div className="relative h-[340px] w-full overflow-hidden rounded-2xl glass sm:h-[360px] xl:h-[390px]">
       {/* layered backdrop */}
       <div className="pointer-events-none absolute inset-0 bg-grid opacity-40" />
       <div
