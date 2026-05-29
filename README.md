@@ -1,7 +1,6 @@
 # Atomity PulseGrid AI
 
-A cinematic **Kubernetes cost intelligence** dashboard built for the Atomity Frontend Engineering Challenge.
-
+A cinematic **Kubernetes cost intelligence** dashboard 
 PulseGrid AI visualizes infrastructure activity, detects cloud waste, surfaces optimization insights, and simulates live AI-powered infrastructure monitoring through animated topology graphs, realtime alerts, and dynamic savings projections.
 
 Instead of recreating the reference video literally, I interpreted the “optimization insights” segment as a more immersive AI-native infrastructure intelligence system focused on proactive cost leak detection.
