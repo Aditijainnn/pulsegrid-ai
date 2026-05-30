@@ -1,4 +1,4 @@
-# Atomity PulseGrid AI
+# PulseGrid AI
 
 A cinematic **Kubernetes cost intelligence** dashboard 
 PulseGrid AI visualizes infrastructure activity, detects cloud waste, surfaces optimization insights, and simulates live AI-powered infrastructure monitoring through animated topology graphs, realtime alerts, and dynamic savings projections.
